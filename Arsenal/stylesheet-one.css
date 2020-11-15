@@ -1,0 +1,137 @@
+body{
+  background: #100;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.top-wrap{
+width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  background-color: white;
+  margin: 0 auto;
+}
+.logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav{
+  float: right;
+}
+
+.top ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.top ul li{
+  display: inline-block;
+  padding-top:38px ;
+  margin-left:20px ;
+
+position: relative;
+
+}
+.top ul li a:hover{
+  color: #000;
+}
+
+.top ul li a{
+text-decoration: none;
+font-size: 14px;
+font-family: arial;
+color: black;
+text-transform: uppercase;
+}
+.top ul li a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+
+  position: absolute;
+  top:0 ;
+  width: 0%;
+  transform-origin: center;
+
+  transition: 250ms ease-in-out;
+
+}
+
+
+.top ul li a:hover::before {
+  width: 100%;
+
+
+}
+.jerseys{
+  text-align: center;
+  padding-top: 0;
+  position: relative;
+}
+.whitemerch {
+
+  max-width: 250px;
+  max-height: 350px;
+}
+.redmerch {
+  max-width: 250px;
+  max-height: 350px;
+}
+.jerseytext p{
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+.jerseytext{
+  text-align: center;
+}
+.bottom {
+  position: absolute;
+  bottom: 5px;
+  width: 90%;
+}
+.bunn{
+  float: right;
+}
+
+.bunn ul, li  {
+
+  list-style: none;
+  text-transform: uppercase;
+}
+.bunn ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.About{
+  text-align: center;
+  padding: 50px 400px 20px 400px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 20px;
+}
+button{
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  margin-left: 2px;
+  border: none;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px ;
+  border-radius: 5px;
+
+
+}
